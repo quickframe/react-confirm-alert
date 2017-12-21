@@ -1,6 +1,6 @@
 {
   "name": "react-confirm-alert",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "react component confirm dialog.",
   "main": "lib/index.js",
   "scripts": {
