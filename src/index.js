@@ -90,7 +90,7 @@ function createElementReconfirm(properties) {
   render(<ReactConfirmAlert {...properties} />, divTarget);
 }
 
-function removeElementReconfirm() {
+export function removeElementReconfirm() {
   const target = document.getElementById('react-confirm-alert');
   unmountComponentAtNode(target);
   target.parentNode.removeChild(target);
